@@ -30,7 +30,7 @@ function mostrarAlerta(mensaje) {
       'text-red-700',
       'px-4',
       'py-3',
-      'rounded',
+      'rounded-lg',
       'max-w-lg',
       'mx-auto',
       'mt-6',
