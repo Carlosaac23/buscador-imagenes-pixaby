@@ -72,7 +72,6 @@ function formatearVistas(numero) {
 
 // Generador que va a registrar la cantidad de elementos de acuerdo a las páginas
 function* crearPaginador(total) {
-  console.log(total);
   for (let i = 1; i <= total; i++) {
     yield i;
   }
@@ -83,7 +82,6 @@ function calcularPaginas(total) {
 }
 
 function mostrarImagenes(imagenes) {
-  console.log(imagenes);
   limpiarHTML(resultado);
 
   // Iterar sobre las imagenes
